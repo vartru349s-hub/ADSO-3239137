@@ -1,4 +1,4 @@
-### 👨‍💻 Sergio David Vargas Trujillo
+ 👨‍💻 Sergio David Vargas Trujillo
 
 ---
 
