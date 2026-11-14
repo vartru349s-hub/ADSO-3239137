@@ -1,0 +1,25 @@
+# Tareas (23)
+
+- [x] T01 Estructura de seis subcarpetas.
+- [x] T02 Constitución.
+- [x] T03 Diez historias.
+- [x] T04 Seis reglas.
+- [x] T05 Cinco RNF.
+- [x] T06 Arquitectura.
+- [x] T07 Modelo de datos.
+- [x] T08 Contrato REST.
+- [x] T09 ADR persistencia.
+- [x] T10 ADR concurrencia.
+- [x] T11 ADR baja lógica.
+- [x] T12 Migraciones.
+- [x] T13 Categorías y datos demo.
+- [x] T14 Autenticación.
+- [x] T15 Usuarios.
+- [x] T16 Catálogo.
+- [x] T17 Alquiler transaccional.
+- [x] T18 Devolución y mora.
+- [x] T19 Reporte.
+- [x] T20 Aplicación React.
+- [x] T21 Página pública.
+- [x] T22 Contenedores y sembrador.
+- [x] T23 Pruebas automatizadas.
