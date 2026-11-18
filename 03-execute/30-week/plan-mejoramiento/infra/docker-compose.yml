@@ -1,0 +1,7 @@
+services:
+  database:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: bike_share
+      POSTGRES_USER: bike_share
+      POSTGRES_PASSWORD: bike_share_local
