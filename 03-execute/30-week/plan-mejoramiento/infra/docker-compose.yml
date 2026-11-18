@@ -20,5 +20,11 @@ services:
       APP_KEY: base64:WmVyb1NlY3JldEZvckRlbW9Pbkx5MTIzNDU2Nzg5MDE=
       APP_DEBUG: 'true'
       APP_URL: http://localhost:8000
+      DB_CONNECTION: pgsql
+      DB_HOST: database
+      DB_PORT: 5432
+      DB_DATABASE: bike_share
+      DB_USERNAME: bike_share
+      DB_PASSWORD: bike_share_local
 volumes:
   bike_share_data:
