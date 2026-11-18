@@ -12,5 +12,13 @@ services:
       retries: 10
     volumes:
       - bike_share_data:/var/lib/postgresql/data
+  api:
+    build: ../api
+    environment:
+      APP_NAME: Bike Share
+      APP_ENV: local
+      APP_KEY: base64:WmVyb1NlY3JldEZvckRlbW9Pbkx5MTIzNDU2Nzg5MDE=
+      APP_DEBUG: 'true'
+      APP_URL: http://localhost:8000
 volumes:
   bike_share_data:
