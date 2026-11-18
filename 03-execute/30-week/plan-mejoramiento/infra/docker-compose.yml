@@ -10,3 +10,7 @@ services:
       interval: 5s
       timeout: 3s
       retries: 10
+    volumes:
+      - bike_share_data:/var/lib/postgresql/data
+volumes:
+  bike_share_data:
