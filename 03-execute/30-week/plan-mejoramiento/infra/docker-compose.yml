@@ -26,5 +26,11 @@ services:
       DB_DATABASE: bike_share
       DB_USERNAME: bike_share
       DB_PASSWORD: bike_share_local
+    depends_on:
+      database:
+        condition: service_healthy
+    ports:
+      - 8000:8000
+    command: sh -c "php artisan migrate --force && php artisan db:seed --force && php artisan serve --host=0.0.0.0 --port=8000"
 volumes:
   bike_share_data:
