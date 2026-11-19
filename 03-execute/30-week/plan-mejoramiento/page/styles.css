@@ -59,3 +59,17 @@ h1 {
 h1 em { font-family: 'Playfair Display', serif; color: var(--orange); }
 .lead { font-size: 1.15rem; max-width: 560px; line-height: 1.7; }
 .cta { margin-top: 1.5rem; text-decoration: none; }
+
+.visual {
+  aspect-ratio: 1;
+  position: relative;
+  border-radius: 50% 50% 10% 50%;
+  background: var(--mint);
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+}
+.sun { position: absolute; width: 45%; aspect-ratio: 1; border-radius: 50%; background: #ffd268; top: 12%; right: 10%; }
+.bike { font-size: clamp(8rem, 18vw, 15rem); z-index: 1; filter: grayscale(1) contrast(1.4); }
+.visual span { position: absolute; bottom: 12%; left: 10%; font: 5rem 'Playfair Display'; z-index: 2; }
+.visual small { position: absolute; bottom: 8%; left: 12%; z-index: 2; }
