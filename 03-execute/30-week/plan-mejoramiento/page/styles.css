@@ -117,3 +117,13 @@ footer {
   align-items: end;
 }
 footer b { font-size: 2rem; }
+
+@media (max-width: 800px) {
+  nav div a:not(.pill) { display: none; }
+  .hero { grid-template-columns: 1fr; padding-top: 3rem; }
+  .visual { max-width: 500px; }
+  .steps { grid-template-columns: 1fr; }
+  .numbers { padding: 2rem 1rem; }
+  .numbers b { font-size: 2.4rem; }
+  footer { grid-template-columns: 1fr; gap: 1rem; }
+}
