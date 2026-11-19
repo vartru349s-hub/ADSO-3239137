@@ -29,3 +29,13 @@ nav a {
   color: inherit;
   margin-left: 2rem;
 }
+
+.brand { font-weight: 800; letter-spacing: .08em; margin: 0; }
+.brand span, .overline { color: var(--orange); }
+.pill, .cta {
+  display: inline-block;
+  background: var(--ink);
+  color: white !important;
+  padding: .8rem 1.2rem;
+  border-radius: 99px;
+}
