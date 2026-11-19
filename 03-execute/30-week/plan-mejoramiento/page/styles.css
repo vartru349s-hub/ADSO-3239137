@@ -73,3 +73,14 @@ h1 em { font-family: 'Playfair Display', serif; color: var(--orange); }
 .bike { font-size: clamp(8rem, 18vw, 15rem); z-index: 1; filter: grayscale(1) contrast(1.4); }
 .visual span { position: absolute; bottom: 12%; left: 10%; font: 5rem 'Playfair Display'; z-index: 2; }
 .visual small { position: absolute; bottom: 8%; left: 12%; z-index: 2; }
+
+.numbers {
+  background: var(--ink);
+  color: white;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 2.5rem 7vw;
+}
+.numbers article { text-align: center; border-right: 1px solid #ffffff25; }
+.numbers article:last-child { border: 0; }
+.numbers b { display: block; font: 3.5rem 'Playfair Display'; color: #ffd268; }
