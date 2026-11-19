@@ -98,3 +98,13 @@ h1 em { font-family: 'Playfair Display', serif; color: var(--orange); }
 }
 .steps article { background: white; padding: 2.5rem; border-radius: 18px; }
 .steps i { color: var(--orange); font-style: normal; }
+
+.categories { padding: 6rem 7vw; background: #dfd3ff; }
+.tags { display: flex; flex-wrap: wrap; gap: 1rem; }
+.tags span {
+  background: var(--ink);
+  color: white;
+  padding: 1rem 1.5rem;
+  border-radius: 99px;
+  font-size: 1.1rem;
+}
