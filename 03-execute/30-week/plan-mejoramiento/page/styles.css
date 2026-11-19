@@ -39,3 +39,12 @@ nav a {
   padding: .8rem 1.2rem;
   border-radius: 99px;
 }
+
+.hero {
+  min-height: 680px;
+  padding: 5rem 7vw;
+  display: grid;
+  grid-template-columns: 1.1fr .9fr;
+  align-items: center;
+  gap: 5vw;
+}
