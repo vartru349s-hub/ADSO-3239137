@@ -90,3 +90,11 @@ h1 em { font-family: 'Playfair Display', serif; color: var(--orange); }
   font: clamp(2.8rem, 5vw, 5rem) 'Playfair Display';
   margin: .5rem 0 3rem;
 }
+
+.steps {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+.steps article { background: white; padding: 2.5rem; border-radius: 18px; }
+.steps i { color: var(--orange); font-style: normal; }
