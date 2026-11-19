@@ -84,3 +84,9 @@ h1 em { font-family: 'Playfair Display', serif; color: var(--orange); }
 .numbers article { text-align: center; border-right: 1px solid #ffffff25; }
 .numbers article:last-child { border: 0; }
 .numbers b { display: block; font: 3.5rem 'Playfair Display'; color: #ffd268; }
+
+.how { padding: 7rem 7vw; }
+.how h2, .categories h2 {
+  font: clamp(2.8rem, 5vw, 5rem) 'Playfair Display';
+  margin: .5rem 0 3rem;
+}
