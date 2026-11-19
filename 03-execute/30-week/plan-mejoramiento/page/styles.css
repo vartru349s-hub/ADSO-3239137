@@ -6,3 +6,12 @@
   --orange: #ed6a3a;
   --mint: #b9dfc8;
 }
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  background: var(--cream);
+  color: var(--ink);
+  font-family: 'DM Sans', sans-serif;
+}
