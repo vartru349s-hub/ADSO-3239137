@@ -8,6 +8,7 @@
     {"name": "Bicycles", "request": {"method": "GET", "url": "{{baseUrl}}/bicycles?size=50"}},
     {"name": "Users", "request": {"method": "GET", "url": "{{baseUrl}}/users?size=50"}},
     {"name": "Rentals", "request": {"method": "GET", "url": "{{baseUrl}}/rentals?size=50"}},
-    {"name": "Overdue", "request": {"method": "GET", "url": "{{baseUrl}}/rentals/overdue"}}
+    {"name": "Overdue", "request": {"method": "GET", "url": "{{baseUrl}}/rentals/overdue"}},
+    {"name": "Most requested", "request": {"method": "GET", "url": "{{baseUrl}}/reports/most-requested?from=2026-11-01&to=2026-11-30"}}
   ]
 }
