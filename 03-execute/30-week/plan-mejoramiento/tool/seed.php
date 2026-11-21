@@ -4,3 +4,4 @@ function callApi(string $method,string $path,array $body=[]):array{global $base;
 $categories=callApi('GET','/categories');
 callApi('POST','/users',['name'=>'Carlos Méndez','document_number'=>'1010101010','email'=>'carlos@example.test']);
 foreach($categories as $index=>$category){try{callApi('POST','/bicycles',['model_code'=>'DEMO-'.($index+1),'name'=>'Modelo demostración '.$category['name'],'category_id'=>$category['id'],'hourly_rate'=>7000+$index*500,'total_units'=>2]);}catch(RuntimeException $e){if(!str_contains($e->getMessage(),'422'))throw $e;}}
+echo "Datos de demostración enviados por la API.\n";
