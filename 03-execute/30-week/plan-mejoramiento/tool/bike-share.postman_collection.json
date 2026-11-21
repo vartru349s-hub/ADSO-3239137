@@ -2,6 +2,7 @@
   "info": {"name": "Bike Share API", "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"},
   "variable": [{"key": "baseUrl", "value": "http://localhost:8000/api/v1"}],
   "item": [
-    {"name": "Health", "request": {"method": "GET", "url": "{{baseUrl}}/health"}, "event": [{"listen": "test", "script": {"exec": ["pm.test('HTTP 200', () => pm.response.to.have.status(200));"]}}]}
+    {"name": "Health", "request": {"method": "GET", "url": "{{baseUrl}}/health"}, "event": [{"listen": "test", "script": {"exec": ["pm.test('HTTP 200', () => pm.response.to.have.status(200));"]}}]},
+    {"name": "Login", "request": {"method": "POST", "header": [{"key": "Content-Type", "value": "application/json"}], "body": {"mode": "raw", "raw": "{\"username\":\"operator\",\"password\":\"Operator123!\"}"}, "url": "{{baseUrl}}/auth/login"}}
   ]
 }
