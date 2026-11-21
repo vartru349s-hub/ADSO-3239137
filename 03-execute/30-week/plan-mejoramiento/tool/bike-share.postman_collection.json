@@ -5,6 +5,7 @@
     {"name": "Health", "request": {"method": "GET", "url": "{{baseUrl}}/health"}, "event": [{"listen": "test", "script": {"exec": ["pm.test('HTTP 200', () => pm.response.to.have.status(200));"]}}]},
     {"name": "Login", "request": {"method": "POST", "header": [{"key": "Content-Type", "value": "application/json"}], "body": {"mode": "raw", "raw": "{\"username\":\"operator\",\"password\":\"Operator123!\"}"}, "url": "{{baseUrl}}/auth/login"}},
     {"name": "Categories", "request": {"method": "GET", "url": "{{baseUrl}}/categories"}},
-    {"name": "Bicycles", "request": {"method": "GET", "url": "{{baseUrl}}/bicycles?size=50"}}
+    {"name": "Bicycles", "request": {"method": "GET", "url": "{{baseUrl}}/bicycles?size=50"}},
+    {"name": "Users", "request": {"method": "GET", "url": "{{baseUrl}}/users?size=50"}}
   ]
 }
