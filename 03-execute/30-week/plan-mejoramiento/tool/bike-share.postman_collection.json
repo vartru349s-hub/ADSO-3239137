@@ -6,6 +6,8 @@
     {"name": "Login", "request": {"method": "POST", "header": [{"key": "Content-Type", "value": "application/json"}], "body": {"mode": "raw", "raw": "{\"username\":\"operator\",\"password\":\"Operator123!\"}"}, "url": "{{baseUrl}}/auth/login"}},
     {"name": "Categories", "request": {"method": "GET", "url": "{{baseUrl}}/categories"}},
     {"name": "Bicycles", "request": {"method": "GET", "url": "{{baseUrl}}/bicycles?size=50"}},
-    {"name": "Users", "request": {"method": "GET", "url": "{{baseUrl}}/users?size=50"}}
+    {"name": "Users", "request": {"method": "GET", "url": "{{baseUrl}}/users?size=50"}},
+    {"name": "Rentals", "request": {"method": "GET", "url": "{{baseUrl}}/rentals?size=50"}},
+    {"name": "Overdue", "request": {"method": "GET", "url": "{{baseUrl}}/rentals/overdue"}}
   ]
 }
